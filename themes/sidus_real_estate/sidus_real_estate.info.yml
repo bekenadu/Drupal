@@ -1,0 +1,68 @@
+name: Sidus Real Estate Theme
+core: 8.x
+description: 'Sidus Real Estate Drupal 9 Responsive Theme. Developed & Designed by <a href=https://sidus.in target="_blank">Sidus Technologies</a><br/>Contact us for Drupal Design & Development <a href=mailto:info@sidus.in>info@sidus.in</a>'
+package: core
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9
+
+#Libraries
+libraries:
+  - sidus_real_estate/classy.base
+  - sidus_real_estate/bootstrap
+  - sidus_real_estate/icofont
+  - sidus_real_estate/boxicons
+  - sidus_real_estate/animate
+  - sidus_real_estate/owl
+  - sidus_real_estate/venobox
+  - sidus_real_estate/easing
+  - sidus_real_estate/sticky
+  - sidus_real_estate/waypoints
+  - sidus_real_estate/counterup
+  - sidus_real_estate/isotope-layout
+  - sidus_real_estate/php-email-form
+  - sidus_real_estate/global-components
+
+
+#Regions
+regions:
+  topbar: 'Top Bar'
+  header: 'Header'
+  primary_menu_vertical: 'Primary Menu Vertical'
+  primary_menu: 'Primary Menu'
+  slider: 'Slider Section'
+  welcome_text: 'Welcome Text'
+  highlighted: 'Highlighted'
+  page_title: 'Page Title'
+  breadcrumb: 'Breadcrumb'
+  content_top_first: 'Top First Container'
+  content_top_second: 'Top Second Container'
+  content_top_third: 'Top Third Container'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  content_bottom_first: 'Content Bottom First Section'
+  content_bottom_second: 'Content Bottom Second Section'
+  content_bottom_third: 'Content Bottom Third Section'
+  general_sections: 'General Section Container'
+  clients: 'Our Clients'
+  bottom_first: 'Bottom First Container'
+  bottom_second: 'Bottom Second Container'
+  bottom_third: 'Bottom Third Container'
+  bottom_forth: 'Bottom Forth Container'
+  footer_first: 'Footer First Container'
+  footer_second: 'Footer Second Container'
+  footer_third: 'Footer Third Container'
+  footer_forth: 'Footer Forth Container'
+  footer_copyright: 'Footer Copyright'
+  auto_hidden_block: 'Auto Hidden Blocks'
+
+# Information added by Drupal.org packaging script on 2020-08-17
+# version: '9.x-1.0'
+# project: 'sidus_real_estate'
+
+
+# Information added by Drupal.org packaging script on 2020-08-17
+version: '1.0.x-dev'
+project: 'sidus_real_estate'
+datestamp: 1597685598
